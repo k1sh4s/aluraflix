@@ -1,0 +1,22 @@
+:root {
+  --fonte: 'Teko', sans-serif;
+  --preto: #000000;
+  --darkgray: rgb(26, 26, 26);
+  --branco: #ffffff;
+  --azul: rgb(0, 95, 219);
+
+}
+
+body {
+  margin: 0;
+  font-family: var(--fonte);
+  background-color: var(--darkgray);
+  color: var(--azul);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
